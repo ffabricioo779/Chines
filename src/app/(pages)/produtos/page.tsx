@@ -21,6 +21,7 @@ export default function ProdutosPage() {
         <nav className="side-nav" aria-label="Menu principal">
           <Link href="/dashboard">Visão geral</Link>
           <Link className="active" href="/produtos">Produtos</Link>
+          <Link href="/usuarios">Usuários</Link>
         </nav>
         <Link className="logout-link" href="/login">Sair da conta</Link>
       </aside>

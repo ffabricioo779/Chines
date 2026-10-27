@@ -12,6 +12,7 @@ export default function DashboardPage() {
         <nav className="side-nav" aria-label="Menu principal">
           <Link className="active" href="/dashboard">Visão geral</Link>
           <Link href="/produtos">Produtos</Link>
+          <Link href="/usuarios">Usuários</Link>
         </nav>
         <Link className="logout-link" href="/login">Sair da conta</Link>
       </aside>
